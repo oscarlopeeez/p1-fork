@@ -1,0 +1,58 @@
+Explicación de los comandos
+
+1. git clone
+    - Función: clona un repositorio remoto y lo descarga en tu equipo local.
+    - Uso: lo usamos para descargar nuestro fork desde GitHub.
+    - Log generado: Cloning into 'p1-fork'...
+                    remote: Enumerating objects: 6, done.
+                    remote: Counting objects: 100% (1/1), done.
+                    remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
+                    Receiving objects: 100% (6/6), done.
+
+2. git status
+    - Función: muestra el estado actual del repositorio (archivos modificados, añadidos, pendientes de commit).
+    - Uso: verifica los cambios en el repositorio.
+    - Log generado: On branch main
+                    Your branch is ahead of 'origin/main' by 1 commit.
+                    (use "git push" to publish your local commits)
+
+                    Changes not staged for commit:
+                    (use "git add <file>..." to update what will be committed)
+                    (use "git restore <file>..." to discard changes in working directory)
+                            modified:   git.txt
+
+                    no changes added to commit (use "git add" and/or "git commit -a")
+
+3. git add
+    - Función: añade archivos al staging area.
+    - Uso: lo usamos antes de realizar un commit para preparar los cambios.
+    - Log generado: no genera log, y los cambios los vemos si hacemos un git status.
+
+4. git commit
+    - Función: siempre va acompañado de un mensaje y guarda los cambios añadidos con "git add ." en el historial del repositorio.
+    - Uso: creamos un commit para documentar los cambios.
+    - Log generado: [main 27c3696] Descripción de los cambios realizados
+                    1 file changed, 44 insertions(+), 1 deletion(-)
+
+5. git push
+    - Función: sube los commits locales al repositorio remoto en GitHub.
+    - Uso: sube los cambios a nuestro fork
+    - Log generado: Enumerating objects: 20, done.
+                    Counting objects: 100% (20/20), done.
+                    Delta compression using up to 2 threads
+                    Compressing objects: 100% (14/14), done.
+                    Writing objects: 100% (18/18), 3.62 KiB | 3.62 MiB/s, done.
+                    Total 18 (delta 2), reused 5 (delta 0), pack-reused 0 (from 0)
+                    remote: Resolving deltas: 100% (2/2), done.
+                    To https://github.com/oscarlopeeez/ci-cd.git
+                    45fab2a..b2aebb6  main -> main
+
+6. git chekout
+    - Función: cambia de rama o restaura archivos a un estado anterior.
+    - Uso: lo usamos para cambiar entre ramas y podemos cambiar a ramas ya creadas o a nuevas.
+    - Log generado: 
+            Switched to a new branch 'feature/1'
+
+            M       git.txt
+            Switched to branch 'main'
+            Your branch is up to date with 'origin/main'.
