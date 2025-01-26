@@ -1,0 +1,34 @@
+Evidencia de instalación del entorno de desarrollo
+
+1. Java (java --version):
+    openjdk 21.0.5 2024-10-15 LTS
+    OpenJDK Runtime Environment Microsoft-10376803 (build 21.0.5+11-LTS)
+    OpenJDK 64-Bit Server VM Microsoft-10376803 (build 21.0.5+11-LTS, mixed mode, sharing)
+
+2. Maven (mvn --version):
+    Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+    Maven home: /usr/local/sdkman/candidates/maven/current
+    Java version: 21.0.5, vendor: Microsoft, runtime: /usr/local/sdkman/candidates/java/21.0.5-ms
+    Default locale: en, platform encoding: UTF-8
+    OS name: "linux", version: "6.5.0-1025-azure", arch: "amd64", family: "unix"
+
+3.1. VsCode (code --version):
+    1.96.3
+    91fbdddc47bc9c09064bf7acf133d22631cbf083
+    x64
+
+3.2. IntelliJ (version desde la aplicación):
+    IntelliJ IDEA 2024.3 (Community Edition)
+    Build #IC-243.21565.193, built on November 13, 2024
+    Runtime version: 21.0.5+8-b631.16 amd64 (JCEF 122.1.9)
+    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+    Toolkit: sun.awt.windows.WToolkit
+    Windows 11.0
+    GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+    Memory: 2048M
+    Cores: 8
+    Registry:
+    ide.experimental.ui=true
+    i18n.locale=
+    Non-Bundled Plugins:
+    PythonCore (243.21565.211)
